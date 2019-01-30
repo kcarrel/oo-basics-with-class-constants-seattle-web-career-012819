@@ -17,5 +17,5 @@ class Shoe
     @brand = brand 
     if BRANDS.include?(brand) == FALSE
       BRANDS << BRANDS
-
+  end 
 end
