@@ -14,7 +14,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  def brand=(brand)
+  def BRANDS=(brand)
     @brand = brand 
     if BRANDS.include?(brand) == FALSE
       BRANDS << brand 
